@@ -1,0 +1,114 @@
+body {
+    background: #4B79A1;
+    background: -webkit-linear-gradient(to right, #283E51, #4B79A1);
+    background: linear-gradient(to right, #283E51, #4B79A1);
+}
+
+img.mockup {
+    height: 615px;
+    width: 525px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.head {
+    filter: brightness(0) invert(1);
+    position: absolute;
+    top: 170px;
+    display: block;
+    margin-left: 585px;
+    width: 250px;
+}
+
+p.main {
+    margin-top: -500px;
+    margin-left: 65px;
+    font-family: 'Poppins', sans-serif;
+    font-size: 23px;
+    text-align: center;
+}
+
+.gold {
+    color: gold;
+}
+
+.white {
+    color: white;
+}
+
+.container {
+    margin-left: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.dot {
+    font-weight: 800;
+    font-size: 30px;
+    margin-top: 83px;
+    color: gold;
+}
+
+.time-unit {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    font-weight: 700;
+    color: rgb(248, 212, 5);
+    border-radius: 50%;
+    margin: 100px 10px 8px 10px;
+}
+
+.btn-container {
+    margin-left: 80px;
+    justify-content: center;
+    display: flex;
+}
+
+#start-btn {
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: poppins;
+    padding: 6px 30px 6px 30px;
+    margin: 120px 0 20px 0;
+    transition: 0.6s;
+    outline: none;
+    background-color: rgb(233, 54, 54);
+    color: white;
+}
+
+#start-btn:hover {
+    background-color: rgb(201, 31, 31);
+    color: white;
+}
+
+#reset-btn {
+    border-radius: 30px;
+    border: none;
+    cursor: pointer;
+    font-size: 16px;
+    font-family: poppins;
+    padding: 6px 30px 6px 30px;
+    margin: 120px 10px 20px 10px;
+    transition: 0.6s;
+    outline: none;
+    background-color: rgb(28, 156, 241);
+    color: white;
+}
+
+#reset-btn:hover {
+    background-color: rgb(25, 117, 179);
+    color: white;
+}
+
+#up {
+    cursor: pointer;
+    margin: 10px 0 0 63px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    font-size: 30px;
+}
